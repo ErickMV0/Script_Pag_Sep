@@ -11,7 +11,7 @@ base_url = 'https://www.conaliteg.sep.gob.mx/2023/c/'
 base2_url = 'https://www.conaliteg.sep.gob.mx/2023/'
 
 #Contador para P
-for i in range (0,8):
+for i in range (0,8): #Eliminar este For ya que con de abajo ya hace esa funcion
     #Contador para los Titulos de los libros    
     for le in range (0,len(tag_books)):
         #Try y cach por si no encuentra la pagina
